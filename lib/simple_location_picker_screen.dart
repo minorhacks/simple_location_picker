@@ -57,7 +57,7 @@ class SimpleLocationPicker extends StatefulWidget {
 
 class _SimpleLocationPickerState extends State<SimpleLocationPicker> {
   // Holds the value of the picked location.
-  SimpleLocationResult _selectedLocation;
+  late SimpleLocationResult _selectedLocation;
 
   void initState() {
     super.initState();
